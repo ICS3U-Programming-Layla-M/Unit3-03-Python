@@ -14,7 +14,7 @@ number = int(input("Guess what number I am thinking of between 0 and 9: "))
 
 def main():
     # define variable
-    correct_guess = random.randint(1, 9)
+    correct_guess = random.randint(0, 9)
 
     # check if guess is correct and display message
     # depending on if it's right or wrong
