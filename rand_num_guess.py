@@ -8,11 +8,11 @@
 
 import random
 
-# get the user guess
-number = int(input("Guess what number I am thinking of between 0 and 9: "))
-
 
 def main():
+    # get the user guess
+    number = int(input("Guess what number I am thinking of between 0 and 9: "))
+    
     # define variable
     correct_guess = random.randint(0, 9)
 
